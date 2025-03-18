@@ -8,13 +8,13 @@ public class SumOfThreeNumbers {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Give the first number:");
-        Float first = Float.parseFloat(scanner.nextLine());
+        double first = Double.parseDouble(scanner.nextLine());
 
         System.out.println("Give the second number:");
-        Float second = Float.parseFloat(scanner.nextLine());
+        double second = Double.parseDouble(scanner.nextLine());
 
         System.out.println("Give the third number:");
-        Float third = Float.parseFloat(scanner.nextLine());
+        double third = Double.parseDouble(scanner.nextLine());
 
         System.out.println("The sum of the numbers is " + (first + second + third));
 
